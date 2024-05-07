@@ -3,7 +3,11 @@ Uncovering AIGC Texts with Machine Learning
 
 ## 在线体验
 
-[textrecon.longjin666.cn](https://textrecon.longjin666.cn)
+[textrecogn.longjin666.cn](https://textrecogn.longjin666.cn)
+
+在线版本上传的数据，将在24小时后删除！
+
+为保护数据隐私，使用在线版的时候，请务必设置复杂的下载密码！
 
 ## How to download all resources?
 
@@ -17,13 +21,13 @@ Uncovering AIGC Texts with Machine Learning
 If you want to build image yourself, following the scripts:
 
 ```shell
-docker build -t loooongjin/text_recon:ernie3-nano .
+docker build -t loooongjin/text_recogn:ernie3-nano .
 ```
 
 Or you can pull the docker image:
 
 ```shell
-docker pull loooongjin/text_recon:ernie3-nano
+docker pull loooongjin/text_recogn:ernie3-nano
 ```
 
 
@@ -31,7 +35,7 @@ docker pull loooongjin/text_recon:ernie3-nano
 
 
 ```shell
-docker run --rm -it -p 8000:8000 loooongjin/text_recon:ernie3-nano
+docker run --rm -it -p 8000:8000 loooongjin/text_recogn:ernie3-nano
 ```
 
 ### 3. Check!

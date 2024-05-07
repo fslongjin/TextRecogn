@@ -1,5 +1,6 @@
 # 使用 NVIDIA CUDA 基础镜像
-FROM nvidia/cuda:11.6.1-cudnn8-devel-ubuntu20.04
+# FROM nvidia/cuda:11.6.1-cudnn8-devel-ubuntu20.04
+FROM python:3.8-bullseye
 
 # 设置工作目录
 WORKDIR /app
