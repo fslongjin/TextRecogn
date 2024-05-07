@@ -63,9 +63,10 @@ DragonOS是使用Rust自研内核的，具有Linux二进制兼容性的服务器
 
 ## 赞赏本项目
 
-**赞赏资金在扣除TextRecon的在线服务的服务器成本后，多余款项将全部捐入DragonOS社区公款账户！**
+**赞赏资金在扣除TextRecogn的在线服务的服务器成本后，多余款项将全部捐入DragonOS社区公款账户！**
 
-![sponsor](./static/sponsor.jpg)
+<img src="./static/sponsor.jpg" width="300px" />
+
 
 
 ## 关于训练数据
