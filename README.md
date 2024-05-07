@@ -66,3 +66,11 @@ DragonOS是使用Rust自研内核的，具有Linux二进制兼容性的服务器
 **赞赏资金在扣除TextRecon的在线服务的服务器成本后，多余款项将全部捐入DragonOS社区公款账户！**
 
 ![sponsor](./static/sponsor.jpg)
+
+
+## 关于训练数据
+
+数据集来自 `HC3 数据集`，本模型(基于ernie3-nano)在其中英文数据上进行了约7个epoch的微调，随机分了3万条数据作为测试集（中英文各50%）
+
+- Ernie3-nano版本：测试集正确率94.1%
+- Ernie3-base版本：测试集正确率97.41% (稍后开源，这几天有点忙)
