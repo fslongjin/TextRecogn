@@ -1,4 +1,4 @@
-# TextRecon
+# TextRecogn
 Uncovering AIGC Texts with Machine Learning
 
 ## 在线体验
