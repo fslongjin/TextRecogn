@@ -1,3 +1,5 @@
+请注意！此仓库为克隆仓库，主仓库为 https://github.com/fslongjin/TextRecogn
+
 # TextRecogn
 Uncovering AIGC Texts with Machine Learning
 
