@@ -1,4 +1,4 @@
-请注意！此仓库为克隆仓库，主仓库为 https://github.com/fslongjin/TextRecogn
+# 请注意！此仓库为顾瑶版克隆仓库，主仓库为 https://github.com/fslongjin/TextRecogn
 
 # TextRecogn
 Uncovering AIGC Texts with Machine Learning
@@ -11,43 +11,8 @@ Uncovering AIGC Texts with Machine Learning
 
 为保护数据隐私，使用在线版的时候，请务必设置复杂的下载密码！
 
-## How to download all resources?
-
-1. Install git lfs
-2. Clone this repo.
-
-## How to run?
-
-### 1. Build docker image
-
-If you want to build image yourself, following the scripts:
-
-```shell
-docker build -t loooongjin/text_recogn:ernie3-nano .
-```
-
-Or you can pull the docker image:
-
-```shell
-docker pull loooongjin/text_recogn:ernie3-nano
-```
-
-
-### 2. Run!
-
-
-```shell
-docker run --rm -it -p 8000:8000 loooongjin/text_recogn:ernie3-nano
-```
-
-### 3. Check!
-
-Put all `docx` files in `./input` , then:
-
-```shell
-python check.py
-```
-
+## 如何使用
+## 暂未完工，完工后提供下载
 
 ## AD: DragonOS龙操作系统
 
