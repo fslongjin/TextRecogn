@@ -1,7 +1,7 @@
 # 请注意！此仓库为顾瑶版克隆仓库，主仓库为 https://github.com/fslongjin/TextRecogn
 
-# TextRecogn
-Uncovering AIGC Texts with Machine Learning
+# TextRecogn顾瑶版
+为你检测AI创作的痕迹
 
 ## 在线体验
 
@@ -12,7 +12,7 @@ Uncovering AIGC Texts with Machine Learning
 为保护数据隐私，使用在线版的时候，请务必设置复杂的下载密码！
 
 ## 如何使用
-## 暂未完工，完工后提供下载
+暂未完工，完工后提供下载
 
 ## AD: DragonOS龙操作系统
 
