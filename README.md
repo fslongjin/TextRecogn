@@ -5,7 +5,7 @@ Uncovering AIGC Texts with Machine Learning
 
 [textrecogn.longjin666.cn](https://textrecogn.longjin666.cn)
 
-在线版本上传的数据，将在24小时后删除！
+在线版本上传的数据，将在4小时后删除！
 
 为保护数据隐私，使用在线版的时候，请务必设置复杂的下载密码！
 
