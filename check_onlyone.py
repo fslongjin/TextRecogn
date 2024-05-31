@@ -26,13 +26,11 @@ logging.basicConfig(
 Custom_titles = 'TextRecogn-AIGC单文件检测'
 
 print("")
-print("感谢使用TextRecogn项目，原作者为@fslongjin，贡献者@zhuweihao12138，github地址https://github.com/fslongjin/TextRecogn.")
-print("感谢使用TextRecogn项目，github地址https://github.com/fslongjin/TextRecogn")
+print("感谢使用TextRecogn项目，github地址https://github.com/fslongjin/TextRecogn.")
 print("")
 print("日志仅保存在本地用于诊断脚本问题，不上传至服务器，请放心使用")
 print("")
 
-logging.info('感谢使用TextRecogn项目，原作者为@fslongjin，贡献者@zhuweihao12138，github地址https://github.com/fslongjin/TextRecogn')
 logging.info('感谢使用TextRecogn项目，github地址https://github.com/fslongjin/TextRecogn')
 logging.info('本日志仅保存在本地用于诊断脚本问题，不上传至服务器，请放心使用')
 
