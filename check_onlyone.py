@@ -5,17 +5,16 @@ import logging
 from datetime import datetime
 import tkinter as tk
 from tkinter import filedialog
+import ctypes
 
 input_dir = "./input"
 output_dir = "./output"
-log_dir = "./logs"
 
 os.makedirs(input_dir, exist_ok=True)
 os.makedirs(output_dir, exist_ok=True)
-os.makedirs(log_dir, exist_ok=True)
 
 # 生成带有时间戳的日志文件名
-log_filename = f'./logs/AIGC-{datetime.now().strftime("%Y-%m-%d_%H-%M-%S")}.log'
+log_filename = f'./logs/AIGCone-{datetime.now().strftime("%Y-%m-%d_%H-%M-%S")}.log'
 
 # 设置日志级别
 logging.basicConfig(
@@ -24,16 +23,21 @@ logging.basicConfig(
     format='[%(levelname)s] - %(message)s',
 )
 
+Custom_titles = 'TextRecogn-AIGC单文件检测'
+
 print("")
 print("感谢使用TextRecogn项目，原作者为@fslongjin，贡献者@zhuweihao12138，github地址https://github.com/fslongjin/TextRecogn.")
+print("感谢使用TextRecogn项目，github地址https://github.com/fslongjin/TextRecogn")
 print("")
 print("日志仅保存在本地用于诊断脚本问题，不上传至服务器，请放心使用")
 print("")
 
 logging.info('感谢使用TextRecogn项目，原作者为@fslongjin，贡献者@zhuweihao12138，github地址https://github.com/fslongjin/TextRecogn')
+logging.info('感谢使用TextRecogn项目，github地址https://github.com/fslongjin/TextRecogn')
 logging.info('本日志仅保存在本地用于诊断脚本问题，不上传至服务器，请放心使用')
 
-URL = "http://location:8000/ai_check"
+URL = "http://localhost:8000/ai_check"
+output_dir = "./output"
 
 def select_file():
     root = tk.Tk()
