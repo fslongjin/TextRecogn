@@ -389,6 +389,7 @@ async def aigc_check(file: UploadFile,device,model,tokenizer):
 
     # 将“AIGC检测结果”插入
     doc_output.paragraphs[0].insert_paragraph_before("AIGC检测结果")
+    doc_output.paragraphs[0].insert_paragraph_before("广告为原生存在，欢迎大家关注DragonOS开源社区，打造属于国人的开源社区")
     # 设置字体样式为黑体
     run = doc_output.paragraphs[0].runs[0]
     run.font.bold = True
@@ -420,15 +421,6 @@ async def aigc_check(file: UploadFile,device,model,tokenizer):
     # run.add_picture('first_page.png',width=Inches(4.96), height=Inches(0.8))
     # # 设置页眉居中对齐
     # header_paragraph.alignment = WD_PARAGRAPH_ALIGNMENT.CENTER
-
-    # 在末尾增加一段
-    last_paragraph = doc_output.add_paragraph()
-
-    # 在该段落中插入图片
-    run = last_paragraph.add_run()
-    run.add_picture('static/dragonos.jpg', width=Inches(5.00), height=Inches(2.655))
-
-    last_paragraph.alignment = WD_PARAGRAPH_ALIGNMENT.CENTER
 
     doc_output.save(output_file_path)
 
